@@ -1,0 +1,23 @@
+---
+title: "Exercise"
+author: "Bailee Kamp"
+date: "2/11/2020"
+output: html_document
+---
+## This is my report!
+
+I like writing **reports**
+
+```{r example, include = FALSE}
+numbers <- runif(1:100)
+hist(numbers)
+numbers_mean <- mean(numbers) # get the mean
+img_url <- "![puppies
+](url goes here)"
+```
+
+The mean of the numbers happens to be **`r numbers_mean`**.
+
+```{r other_chunck}
+print("Hello World!")
+```
